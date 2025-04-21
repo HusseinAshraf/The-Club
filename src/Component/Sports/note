@@ -1,0 +1,62 @@
+const sports = [
+    {
+      name: "Football",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683370768_589.png",
+    },
+    {
+      name: "Basketball",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683370801_297.png",
+    },
+    {
+      name: "Gymnastic",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683371175_383.png",
+    },
+    {
+      name: "Tennis",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683371197_467.png",
+    },
+    {
+      name: "Handball",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683371220_857.png",
+    },
+    {
+      name: "Squash",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683372941_302.png",
+    },
+    {
+      name: "Karate",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683393315_244.png",
+    },
+    {
+      name: "Taekwondo",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683394629_544.png",
+    },
+    {
+      name: "Judo",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683394812_547.png",
+    },
+    {
+      name: "MMA",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683394829_114.png",
+    },
+    {
+      name: "Kickboxing",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683395269_485.png",
+    },
+    {
+      name: "Swimming",
+      image:
+        "https://admin.theclub.com.eg/uploads/images/original/1683395724_794.png",
+    },
+  ];
