@@ -29,7 +29,16 @@ function OurClub() {
                 managed by the private sector (UFC GYM EGYPT). We are planning
                 to expand to Egypt.
               </p>
-              <p className="font-semibold text-2xl mt-6 ">Read More &gt;&gt;</p>
+              <p className="font-semibold text-2xl mt-6 ">
+
+              
+                <a
+                  href="#"
+                  
+                >
+                  Read More &gt;&gt;
+                </a>
+              </p>
             </div>
           </div>
 
