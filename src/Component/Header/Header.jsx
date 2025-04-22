@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import {
-  FaPhone,
+  
   FaEnvelope,
   FaFacebookF,
   FaInstagram,
@@ -45,7 +45,7 @@ function Header() {
         }}
       >
         <div className="container mx-auto max-w-[1140px] px-4 flex flex-wrap justify-between items-center gap-2 sm:gap-4">
-          <div className="flex flex-wrap items-center gap-2 sm:gap-4">
+          <div className="flex flex-wrap items-center gap-4 sm:gap-4">
             <div className="flex items-center gap-1 text-sm">
               <div className="text-xl">
                 <svg
@@ -76,7 +76,7 @@ function Header() {
               </span>
             </div>
           </div>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-4">
             <FaFacebookF className="cursor-pointer text-2xl hover:text-gray-200" />
             <FaInstagram className="cursor-pointer text-2xl hover:text-gray-200" />
             <FaLinkedinIn className="cursor-pointer text-2xl hover:text-gray-200" />
@@ -102,7 +102,7 @@ function Header() {
               <div className="relative" ref={aboutRef}>
                 <button
                   onClick={() => setAboutOpen((prev) => !prev)}
-                  className="flex items-center gap-1"
+                  className="flex items-center gap-1 cursor-pointer"
                 >
                   About ▾
                 </button>
@@ -146,7 +146,7 @@ function Header() {
                   Sports & Activities ▾
                 </button>
                 {sportsOpen && (
-                  <div className="absolute top-full left-0 mt-1 w-48 bg-white border  shadow-md rounded-md py-2 z-50 border-[#f8f9fa]">
+                  <div className="absolute top-full left-0 mt-1 w-48 bg-white border  shadow-md rounded-md py-2 z-50 border-[#f8f9fa] cursor-pointer">
                     <a href="#" className="block px-4 py-2 hover:bg-gray-100">
                       Football
                     </a>
@@ -193,10 +193,10 @@ function Header() {
           </div>
 
           <div className="hidden md:flex flex-col items-end">
-            <button className="bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white w-[120px] px-5 py-1 my-1 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52]  transition">
+            <button className="bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white w-[120px] px-5 py-1 my-1 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52]  transition cursor-pointer">
               Login
             </button>
-            <button className="bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white w-[120px] px-5 py-1 my-1 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52]  transition">
+            <button className="bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white w-[120px] px-5 py-1 my-1 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52]  transition cursor-pointer">
               Register
             </button>
           </div>
@@ -219,7 +219,7 @@ function Header() {
             <div className="relative" ref={aboutRef}>
               <button
                 onClick={() => setAboutOpen((prev) => !prev)}
-                className="flex items-center gap-1"
+                className="flex items-center gap-1 cursor-pointer"
               >
                 About ▾
               </button>
@@ -265,7 +265,7 @@ function Header() {
                 Sports & Activities ▾
               </button>
               {sportsOpen && (
-                <div className="relative mt-2 bg-white border shadow-md rounded-md py-2 z-40">
+                <div className="relative mt-2 bg-white border shadow-md rounded-md py-2 z-40 cursor-pointer">
                   {[
                     "Football",
                     "Basketball",
@@ -296,11 +296,11 @@ function Header() {
               Booking
             </a>
 
-            <div className="flex flex-col gap-2 pt-2">
-              <button className="bg-gradient-to-r from-teal-500 to-teal-900 text-white px-4 py-1 rounded-md shadow hover:from-white hover:to-white hover:text-[#014e52] transition">
+            <div className="flex flex-col gap-2 pt-2 ">
+              <button className="bg-gradient-to-r from-teal-500 to-teal-900 text-white px-4 py-1 rounded-md shadow hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer">
                 Login
               </button>
-              <button className="bg-gradient-to-r from-teal-500 to-teal-900 text-white px-4 py-1 rounded-md shadow hover:from-white hover:to-white hover:text-[#014e52] transition">
+              <button className="bg-gradient-to-r from-teal-500 to-teal-900 text-white px-4 py-1 rounded-md shadow hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer">
                 Register
               </button>
             </div>
