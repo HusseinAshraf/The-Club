@@ -100,13 +100,13 @@ function Sports() {
 
       <div className="border border-gray-300 rounded-xl p-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6">
-          <div className="lg:col-span-4 md:col-span-6 w-full flex flex-col gap-2 bg-[#f4f4f4] shadow-[0_2px_4px_#0003,_0_6px_20px_#00000030] p-4 rounded-lg">
+          <div className="lg:col-span-4 md:col-span-6 w-full flex flex-col gap-2 bg-[#f4f4f4] shadow-[0_2px_4px_#0003,_0_6px_20px_#00000030] p-4 rounded-lg px-16">
             {sports.map((sport, index) => (
               <div
                 key={index}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
-                className="cursor-pointer mx-auto flex items-center justify-between w-full border-b pb-3 px-2 hover:text-[#3fbabe] hover:text-lg transition duration-300 ease-in-out"
+                className="cursor-pointer mx-auto flex items-center justify-between w-full border-b pb-3 px-2 hover:text-[#3fbabe] hover:text-lg transition duration-300 ease-in-out "
               >
                 <img src={sport.image} alt={sport.name} className="w-6 h-6" />
                 <span className="flex-1 ml-3 text-[16px] sm:text-[18px]">
