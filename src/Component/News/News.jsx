@@ -119,10 +119,10 @@ function News() {
           {isPrevButtonVisible && (
             <div className="absolute top-1/2 left-0 transform -translate-y-1/2 z-10 block">
               <button
-                className="w-9 h-9 rounded-full bg-[#01565B] text-white flex items-center justify-center hover:bg-[#014e47] transition-colors"
+                className="w-[43px] h-[43px] rounded-full bg-[#00000080] text-white flex items-center justify-center hover:bg-[#000000e3] transition-colors cursor-pointer"
                 onClick={() => swiperRef.current.swiper.slidePrev()}
               >
-                <ChevronLeft size={20} />
+                <ChevronLeft size={25} />
               </button>
             </div>
           )}
@@ -130,10 +130,10 @@ function News() {
           {hasScrolled && (
             <div className="absolute top-1/2 right-0 transform -translate-y-1/2 z-10 block">
               <button
-                className="w-9 h-9 rounded-full bg-[#01565B] text-white flex items-center justify-center hover:bg-[#014e47] transition-colors"
+                className="w-[43px] h-[43px] rounded-full bg-[#00000080] text-white flex items-center justify-center hover:bg-[#000000e3] transition-colors cursor-pointer"
                 onClick={() => swiperRef.current.swiper.slideNext()}
               >
-                <ChevronRight size={20} />
+                <ChevronRight size={25} />
               </button>
             </div>
           )}
