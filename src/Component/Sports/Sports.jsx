@@ -93,31 +93,31 @@ function Sports() {
   ];
 
   return (
-    <div className="max-w-screen-xl mx-auto px-20 py-6">
-      <h2 className="text-[28px] font-bold text-[#01565B] mb-4">Sports & Activities</h2>
+    <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-20 py-6">
+      <h2 className="text-[28px] font-bold text-[#01565B] mb-4">
+        Sports & Activities
+      </h2>
 
-      <div className="  border border-gray-300 rounded-xl p-10 ">
-        <div className=" container max-w-[1140px] m-[20px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-3">
-          <div className="home-sports-side lg:col-span-4 md:col-span-6 sm:col-span-12 w-full flex flex-col gap-2 bg-[#f4f4f4] shadow-[0_2px_4px_#0003,_0_6px_20px_#00000030] py-[20px] rounded-lg  ">
+      <div className="border border-gray-300 rounded-xl p-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-6">
+          <div className="lg:col-span-4 md:col-span-6 w-full flex flex-col gap-2 bg-[#f4f4f4] shadow-[0_2px_4px_#0003,_0_6px_20px_#00000030] p-4 rounded-lg">
             {sports.map((sport, index) => (
               <div
                 key={index}
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
-                className="cursor-pointer X mx-auto items-center justify-center "
+                className="cursor-pointer mx-auto flex items-center justify-between w-full border-b pb-3 px-2 hover:text-[#3fbabe] hover:text-lg transition duration-300 ease-in-out"
               >
-                <div className="flex w-[200px] items-center justify-between border-b pb-3 px-2  hover:text-[#3fbabe] hover:text-xl cursor-pointer transition duration-300 ease-in-out">
-                  <img src={sport.image} alt={sport.name} className="w-6 h-6" />
-                  <span className="w-[100px] text-[18px]">{sport.name}</span>
-                  
-                  <FaChevronRight  />
-                  
-                </div>
+                <img src={sport.image} alt={sport.name} className="w-6 h-6" />
+                <span className="flex-1 ml-3 text-[16px] sm:text-[18px]">
+                  {sport.name}
+                </span>
+                <FaChevronRight />
               </div>
             ))}
           </div>
 
-          <div className="lg:col-span-8 md:col-span-6 sm:col-span-0 w-full flex justify-center items-center">
+          <div className="lg:col-span-8 md:col-span-6 w-full flex justify-center items-center">
             <img
               src={
                 hoveredIndex !== null
@@ -125,7 +125,7 @@ function Sports() {
                   : acrtiveFrame
               }
               alt="active frame"
-              className="w-full h-[80%] object-center object-contain transition-all duration-300"
+              className="w-full h-auto max-h-[500px] object-contain transition-all duration-300 rounded-xl"
             />
           </div>
         </div>

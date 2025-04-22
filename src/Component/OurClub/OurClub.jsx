@@ -4,7 +4,7 @@ function OurClub() {
   return (
     <section className="bg-[#004d47]">
       {/* Title */}
-      <div className="px-20 py-6 pt-10 pb-3 bg-white">
+      <div className="sm:px-6 lg:px-20 py-6 pt-10 pb-3 bg-white">
         <h1 className="text-4xl px-5 font-medium text-[#004d47]">Our Club</h1>
       </div>
 
