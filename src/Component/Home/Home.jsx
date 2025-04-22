@@ -5,6 +5,7 @@ import News from "../News/News";
 import Offers from "../Offers/Offers";
 import Sports from "../Sports/Sports";
 import Gallery from "../Gallery/Gallery";
+import Loading from "../Loading/Loading";
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -20,9 +21,7 @@ function Home() {
 
   if (loading) {
     return (
-      <div className="flex justify-center items-center h-screen">
-        <div className="w-20 h-20 border-8 border-t-8 border-t-[#004d4d] border-gray-200 rounded-full animate-spin"></div>
-      </div>
+      <Loading/>
     );
   }
 
