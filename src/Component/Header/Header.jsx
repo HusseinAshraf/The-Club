@@ -37,7 +37,13 @@ function Header() {
   return (
     <div className="w-full shadow-md">
       {/* Top bar */}
-      <div className="bg-gradient-to-r from-teal-500 to-teal-900 text-white text-sm py-3">
+      <div
+        className=" text-white text-sm py-3"
+        style={{
+          background:
+            "linear-gradient(264.94deg, #014E52 25.57%, #22B69C 125.1%)",
+        }}
+      >
         <div className="container mx-auto max-w-[1140px] px-4 flex flex-wrap justify-between items-center gap-2 sm:gap-4">
           <div className="flex flex-wrap items-center gap-2 sm:gap-4">
             <div className="flex items-center gap-1 text-sm">
