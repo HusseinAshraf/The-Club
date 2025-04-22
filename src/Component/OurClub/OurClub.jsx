@@ -40,7 +40,7 @@ function OurClub() {
               controls
               loop
               playsInline
-              className="w-full h-full object-cover rounded-xl shadow-md"
+              className="w-full h-full object-cover  shadow-md"
             >
               <source
                 src="https://ik.imagekit.io/hussein74/The%20Club/the%20club.mp4"
