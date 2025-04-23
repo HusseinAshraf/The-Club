@@ -184,10 +184,10 @@ function Header() {
           </div>
 
           <div className="hidden md:flex flex-col items-end">
-            <button className="bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white w-[120px] px-5 py-1 my-1 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer">
+            <button className="bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white w-[120px] px-5 md:px-3 py-1 my-1 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer">
               {t("buttons.login")}
             </button>
-            <button className="bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white w-[120px] px-5 py-1 my-1 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer">
+            <button className="bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white w-[120px] px-5 md:px-3 py-1 my-1 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer ">
               {t("buttons.register")}
             </button>
           </div>
@@ -289,15 +289,15 @@ function Header() {
               {t("nav.booking")}
             </a>
 
-            <div className="flex md:flex-col gap-4 pt-2">
+            <div className="flex flex-col gap-4 pt-2">
   <button
-    className={`w-auto font-medium bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white px-5 md:px-2 py-2 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer text-center 
+    className={`w-[120px] font-medium bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white  px-3  py-2 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer text-center 
     }`}
   >
     {t("buttons.login")}
   </button>
   <button
-    className={`w-auto font-medium bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white px-5 py-2 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer text-center 
+    className={`w-[120px] font-medium bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white px-3 py-2 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer text-center 
     }`}
   >
     {t("buttons.register")}
