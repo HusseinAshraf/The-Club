@@ -76,7 +76,7 @@ function Header() {
             <div className="flex items-center gap-2">
               <FaEnvelope className="text-lg" />
               <span className="text-[12px] sm:inline">
-                {t("contact.email")}:{" "}
+                Email:{" "}
                 <a href="mailto:info@theclub.com.eg">info@theclub.com.eg</a>
               </span>
             </div>
@@ -114,27 +114,31 @@ function Header() {
                   onClick={() => setAboutOpen((prev) => !prev)}
                   className="flex items-center gap-1 cursor-pointer"
                 >
-                  {t("about.aboutTitle")} ▾
+                  About ▾
                 </button>
                 {aboutOpen && (
-                  <div className="absolute top-full left-0 mt-1 w-50 bg-white border shadow-md rounded-md py-2 z-50 border-[#f8f9fa]">
-                    {[
-                      "about.aboutClub",
-                      "about.ministerWelcome",
-                      "about.chairmanWord",
-                      "about.boardMembers",
-                      "about.strategicPlans",
-                      "about.teamwork",
-                      "about.contact",
-                    ].map((key) => (
-                      <a
-                        href="#"
-                        className="block px-4 py-2 hover:bg-gray-100"
-                        key={key}
-                      >
-                        {t(key)}
-                      </a>
-                    ))}
+                  <div className="absolute top-full left-0 mt-1 w-40 bg-white border shadow-md rounded-md py-2 z-50 border-[#f8f9fa]">
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      About The Club
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Minister Welcome
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Board Chairman Word
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Board Members
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Strategic Plans
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Teamwork
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Contact Us
+                    </a>
                   </div>
                 )}
               </div>
@@ -149,32 +153,47 @@ function Header() {
                   onClick={() => setSportsOpen((prev) => !prev)}
                   className="flex items-center gap-1"
                 >
-                  {t("sports.sportsTitle")} ▾
+                  Sports & Activities ▾
                 </button>
                 {sportsOpen && (
-                  <div className="absolute top-full left-0 mt-1 w-50 bg-white border shadow-md rounded-md py-2 z-50 border-[#f8f9fa] cursor-pointer">
-                    {[
-                      "sports.football",
-                      "sports.basketball",
-                      "sports.gymnastic",
-                      "sports.tennis",
-                      "sports.handball",
-                      "sports.squash",
-                      "sports.karate",
-                      "sports.taekwondo",
-                      "sports.judo",
-                      "sports.mma",
-                      "sports.kickboxing",
-                      "sports.swimming",
-                    ].map((key) => (
-                      <a
-                        key={key}
-                        href="#"
-                        className="block px-4 py-2 hover:bg-gray-100"
-                      >
-                        {t(key)}
-                      </a>
-                    ))}
+                  <div className="absolute top-full left-0 mt-1 w-48 bg-white border  shadow-md rounded-md py-2 z-50 border-[#f8f9fa] cursor-pointer">
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Football
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Basketball
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Gymnastic
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Tennis
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Handball
+                    </a>
+
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Squash
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Karate
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Taekwondo
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Judo
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      MMA
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Kickboxing
+                    </a>
+                    <a href="#" className="block px-4 py-2 hover:bg-gray-100">
+                      Swimming
+                    </a>
                   </div>
                 )}
               </div>
@@ -199,12 +218,11 @@ function Header() {
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
-
         {/* Mobile Menu */}
         {menuOpen && (
           <div className="md:hidden bg-[#f8f9fa] border-t border-gray-200 shadow-lg px-4 py-4 space-y-3">
             <a href="#" className="block" onClick={() => setMenuOpen(false)}>
-              {t("nav.home")}
+              Home
             </a>
 
             <div className="relative" ref={aboutRef}>
@@ -212,73 +230,71 @@ function Header() {
                 onClick={() => setAboutOpen((prev) => !prev)}
                 className="flex items-center gap-1 cursor-pointer"
               >
-                {t("about.aboutTitle")} ▾
+                About ▾
               </button>
               {aboutOpen && (
                 <div className="relative mt-2 bg-white border shadow-md rounded-md py-2 z-40">
                   {[
-                    "about.aboutClub",
-                      "about.ministerWelcome",
-                      "about.chairmanWord",
-                      "about.boardMembers",
-                      "about.strategicPlans",
-                      "about.teamwork",
-                      "about.contact",
-                  ].map((key) => (
+                    "About The Club",
+                    "Minister Welcome",
+                    "Board Chairman Word",
+                    "Board Members",
+                    "Strategic Plans",
+                    "Teamwork",
+                    "Contact Us",
+                  ].map((item) => (
                     <a
-                      key={key}
+                      key={item}
                       href="#"
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
-                      {t(key)}
+                      {item}
                     </a>
                   ))}
                 </div>
               )}
             </div>
 
-            {["nav.loyalty", "nav.events", "nav.news", "nav.championships"].map(
-              (key) => (
-                <a
-                  key={key}
-                  href="#"
-                  className="block"
-                  onClick={() => setMenuOpen(false)}
-                >
-                  {t(key)}
-                </a>
-              )
-            )}
+            {["Loyalty", "Events", "News", "Championships"].map((link) => (
+              <a
+                key={link}
+                href="#"
+                className="block"
+                onClick={() => setMenuOpen(false)}
+              >
+                {link}
+              </a>
+            ))}
 
             <div className="relative" ref={sportsRef}>
               <button
                 onClick={() => setSportsOpen((prev) => !prev)}
                 className="flex items-center gap-1"
               >
-                {t("sports.sportsTitle")} ▾
+                Sports & Activities ▾
               </button>
               {sportsOpen && (
                 <div className="relative mt-2 bg-white border shadow-md rounded-md py-2 z-40 cursor-pointer">
                   {[
-                    "sports.football",
-                    "sports.basketball",
-                    "sports.gymnastic",
-                    "sports.tennis",
-                    "sports.handball",
-                    "sports.squash",
-                    "sports.karate",
-                    "sports.taekwondo",
-                    "sports.judo",
-                    "sports.mma",
-                    "sports.kickboxing",
-                    "sports.swimming",
-                  ].map((key) => (
+                    "Football",
+                    "Basketball",
+                    "Gymnastic",
+                    "Tennis",
+                    "Handball",
+                    "Squash",
+                    "Karate",
+                    "Taekwondo",
+                    "Judo",
+                    "MMA",
+                    "Kickboxing",
+                    "Swimming",
+                  ].map((sport) => (
                     <a
-                      key={key}
+                      key={sport}
                       href="#"
                       className="block px-4 py-2 hover:bg-gray-100"
                     >
-                      {t(key)}
+                      {sport}
                     </a>
                   ))}
                 </div>
@@ -286,25 +302,17 @@ function Header() {
             </div>
 
             <a href="#" className="block" onClick={() => setMenuOpen(false)}>
-              {t("nav.booking")}
+              Booking
             </a>
 
-            <div className="flex md:flex-col gap-4 pt-2">
-  <button
-    className={`w-auto font-medium bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white px-5 md:px-2 py-2 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer text-center 
-    }`}
-  >
-    {t("buttons.login")}
-  </button>
-  <button
-    className={`w-auto font-medium bg-gradient-to-l from-[#014e52] to-[#22b69c] text-white px-5 py-2 rounded-md shadow-md hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer text-center 
-    }`}
-  >
-    {t("buttons.register")}
-  </button>
-</div>
-
-
+            <div className="flex flex-col gap-2 pt-2 ">
+              <button className="bg-gradient-to-r from-teal-500 to-teal-900 text-white px-4 py-1 rounded-md shadow hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer">
+                Login
+              </button>
+              <button className="bg-gradient-to-r from-teal-500 to-teal-900 text-white px-4 py-1 rounded-md shadow hover:from-white hover:to-white hover:text-[#014e52] transition cursor-pointer">
+                Register
+              </button>
+            </div>
           </div>
         )}
       </div>

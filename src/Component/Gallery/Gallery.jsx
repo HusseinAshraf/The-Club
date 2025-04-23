@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
 
 const images = [
   "https://admin.theclub.com.eg/uploads/images/original/1678973061_152.jpg",
@@ -19,6 +20,7 @@ const depthStyles = {
 };
 
 const Gallery = () => {
+  const { t } = useTranslation();
   const [index, setIndex] = useState(2);
   const len = images.length;
 
@@ -35,7 +37,7 @@ const Gallery = () => {
   return (
     <section className=" py-5">
       <div className="px-20 py-6 pt-10 pb-3 bg-white">
-        <h1 className="text-4xl px-5 font-medium text-[#004d47]">Gallery</h1>
+        <h1 className="text-4xl px-5 font-medium text-[#004d47]">{t("Gallery")}</h1>
       </div>
       <div className="bg-teal-900 py-10 px-4  relative">
         <div className="relative w-full max-w-8xl mx-auto h-[320px]">

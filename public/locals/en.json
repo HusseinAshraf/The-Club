@@ -1,0 +1,125 @@
+{
+  "nav": {
+    "home": "Home",
+    "loyalty": "Loyalty",
+    "events": "Events",
+    "news": "News",
+    "championships": "Championships",
+    "booking": "Booking"
+  },
+  "about": {
+    "aboutTitle": "About",
+    "aboutClub": "About The Club",
+    "ministerWelcome": "Minister Welcome",
+    "chairmanWord": "Board Chairman Word",
+    "boardMembers": "Board Members",
+    "strategicPlans": "Strategic Plans",
+    "teamwork": "Teamwork",
+    "contact": "Contact Us"
+  },
+  "sports": {
+    "sportsTitle": "Sports & Activities",
+    "football": "Football",
+    "basketball": "Basketball",
+    "gymnastic": "Gymnastic",
+    "tennis": "Tennis",
+    "handball": "Handball",
+    "squash": "Squash",
+    "karate": "Karate",
+    "taekwondo": "Taekwondo",
+    "judo": "Judo",
+    "mma": "MMA",
+    "kickboxing": "Kickboxing",
+    "swimming": "Swimming"
+  },
+  "buttons": {
+    "login": "Login",
+    "register": "Register"
+  },
+  "contact": {
+    "email": " email Us"
+  },
+  
+    "ourClub": {
+      "title": "Our Club",
+      "description": "The Club's main branch is located in 6 October City near Juhayna Square, in the Dahshur link between Juhayna Square and Al-Wahat Road, on 20 Feddan. The Club includes a number of sports and entertainment facilities, parks and green areas, and service and sports facilities. Its cost is about EGP 665 million. It aims to include more than 80,000 active members. The Club includes many facilities, 14 playgrounds, including 4 five-a-side, 4 multi-court courts, 6 for various combat games, a gymnastics and squash hall, a swimming pool complex, including an Olympic one, and a service area that includes a bank branch and a 20-square-meter. The Club is the first commercial project affiliated with the Ministry of Youth and Sports directly and managed by the private sector (UFC GYM EGYPT). We are planning to expand to Egypt.",
+      "readMore": "Read More",
+      "videoNotSupported": "Your browser does not support the video display."
+    },
+    
+      "news": {
+        "title": "News",
+        "viewMore": "View More",
+        "viewMoreLink": "View More >>",
+        "date": "Date",
+        "articles": [
+          {
+            "title": "What did the Minister of Tourism say about The Club?",
+            "description": "Dr. Ashraf Sobhi, Minister of Youth and Sports, took Dr. Khaled Anani, Minister of Tourism, on an inspection tour within the club in 6th of October. This tour was part of a series of field visits to check the latest projects undertaken by the club. The Minister mentioned that the club aims to provide the best sports and recreational services to its members.",
+            "date": "15/12/2021"
+          },
+          {
+            "title": "The \"Victories of the October War\" seminar was launched...",
+            "description": "The \"Victories of the October War\" seminar was launched today under the auspices of the Ministry of Youth and Sports, where a number of military experts highlighted the historical events of the October War and how the lessons learned from the war can be applied to enhance the youth's sports skills and their national pride.",
+            "date": "15/12/2021"
+          },
+          {
+            "title": "The Minister of Sports directs the formation of a higher...",
+            "description": "Dr. Ashraf Sobhi, Minister of Youth and Sports, held a meeting with the ministry's leaders to discuss the plan for developing sports facilities across various governorates. It was agreed to form a high-level committee to ensure the projects are executed on time and with the highest quality standards.",
+            "date": "16/03/2023"
+          },
+          {
+            "title": "Open the gymnastics hall",
+            "description": "During his visit to The Club in 6th of October City, President Abdel Fattah El-Sisi requested the opening of the gymnastics hall, which was still under construction. This move was aimed at offering more opportunities for youth to engage in physical activities. The gymnasium is one of the major facilities included in the club's development projects.",
+            "date": "27/04/2024"
+          }
+        ]
+      },
+      
+        "offers": {
+          "title": "Offers",
+          "viewMoreLink": "View More >>",
+          "articles": [
+            {
+              "title": "10% discount on club membership",
+              "description": "WHATEVER YOU WANT, WHENEVER YOU WANT",
+              "date": "09/05/2023"
+            },
+            {
+              "title": "Special Offers for new members",
+              "description": "Special Discounts for new members",
+              "date": "16/05/2023"
+            }
+          ]
+        },
+        "Gallery": "Gallery",
+        
+          "footer": {
+            "ourClub": "Our Club",
+            "termsConditions": "Terms & Conditions",
+            "privacyPolicy": "Privacy Policy",
+            "contactUs": "Contact Us",
+            "faq": "FAQ",
+            "ministerWelcome": "Minister Welcome",
+            "boardMembers": "Board Members",
+            "teamwork": "Teamwork",
+            "boardChairmanWord": "Board Chairman Word",
+            "theClub": "The Club",
+            "booking": "Booking",
+            "events": "Events",
+            "loyalty": "Loyalty",
+            "championships": "Championships",
+            "location": "Location",
+            "downloadNow": "Download Now",
+            "googlePlay": "Google Play",
+            "appStore": "App Store"
+          }
+        
+        
+      
+      
+    
+    
+  
+
+}
